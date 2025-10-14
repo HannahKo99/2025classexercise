@@ -1,0 +1,65 @@
+body {
+  font-family: "Microsoft JhengHei", "sans-serif";
+  font-weight: bold;
+  margin: 15px;
+  padding: 1.5em;
+}
+
+h1 {
+  font-size: 50px;
+  color: #a12a2a;
+  font-family: "DFKai-SB", "sans-serif";
+}
+
+h2 {
+  font-size: 45px;
+  color: orange;
+}
+
+h3 {
+  font-size: 40px;
+  color: yellow;
+}
+
+h4 {
+  font-size: 35px;
+  color: green;
+}
+
+h5 {
+  font-size: 30px;
+  color: blue;
+}
+
+h6 {
+  font-size: 25px;
+  color: purple;
+}
+
+ul {
+  font-style: oblique;
+  font-weight: 300;
+  list-style-type: "\1F44D";
+  margin-left: 20%;
+  margin: 50px;
+}
+
+.two {
+  color: rgba(250, 214, 8, 0.89);
+}
+
+#li2 {
+  background-color: #faa;
+}
+
+ol {
+  font-weight: 1000;
+  list-style-type: lower-roman;
+  margin-left: 20%;
+  margin: 50px;
+}
+
+li {
+  font-size: 20px;
+  color: gray;
+}
