@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table1</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 10px;
+      }
+      div{
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <div>
+    <caption>表格1練習</caption>
+    
+    <table>
+      <thead>
+        <tr>
+          <th>姓名</th>
+          <th>電話</th>
+          <th>信箱</th>
+          <th>興趣</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>haha</td>
+          <td>0922333444</td>
+          <td>haha@gmail.com</td>
+          <td>保持消</td>
+        </tr>
+        <tr>
+          <td>Cici</td>
+          <td>0933444555</td>
+          <td>cici@gmail.com</td>
+          <td>必須成</td>
+        </tr>
+        <tr>
+          <td>gigi</td>
+          <td>0944555666</td>
+          <td>gigi@gmail.com</td>
+          <td>說明家</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>
+    <table>
+      <caption>表格2練習</caption>
+      <colgroup>
+      <col style="background-color:rgb(243, 222, 197)"/>
+      <col span="5" style="background-color: rgb(211, 211, 228);">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>性別</th>
+          <th>姓名</th>
+          <th>電話</th>
+          <th>信箱</th>
+          <th>興趣</th>
+          <th>年齡</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="2">女</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <th rowspan="2">男</th>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5">年齡平均值</td>
+          <td>18</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  </body>
+</html>
