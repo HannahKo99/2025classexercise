@@ -1,0 +1,35 @@
+div {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  background-color: beige;
+}
+
+img {
+  width: 260px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn {
+  background-color: #0066cc;
+  color: white;
+  border-radius: 8px;
+  padding: 10px;
+  text-decoration-line: none;
+}
