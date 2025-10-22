@@ -1,29 +1,30 @@
+body {
+  padding: 10%;
+}
+
 div {
   width: 300px;
-  height: auto;
-  margin: 20px;
-  background-color: beige;
+  min-height: fit-content;
+  padding: 20px 20px 20px 20px;
+  background-color: #ffec9e;
+  position: relative;
 }
 
 img {
   width: 260px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 20px;
 }
 
-h1 {
+h2 {
   font-size: 36px;
   font-family: sans-serif;
-  padding-left: 20px;
-  padding-right: 20px;
+  width: 260px;
+  padding-top: 10px;
 }
 
 p {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 260px;
 }
 
 .btn {
@@ -32,4 +33,13 @@ p {
   border-radius: 8px;
   padding: 10px;
   text-decoration-line: none;
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+.map{
+  margin-top: 30px;
+  padding: 10px;
+  background-color: gray;
 }
