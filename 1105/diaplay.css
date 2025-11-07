@@ -1,0 +1,19 @@
+.box{
+    width: 300px;
+    font-size: 16px;
+}
+
+.box1{
+    background-color: red;
+    display: inline-block;
+}
+
+.box2{
+    background-color: yellow;
+    display: none;
+}
+
+.box3{
+    background-color: blue;
+    display: inline-block;
+}

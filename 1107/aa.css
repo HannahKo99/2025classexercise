@@ -1,0 +1,26 @@
+nav{
+    background-color: gray;
+    height: 80px;
+    width: 1024px;
+    padding: 10px 20px;
+    justify-content: space-between;
+    display: inline-block;
+   
+}
+
+.nav-div{
+    display: flex;
+    background-color: lightskyblue;
+    width: 800px;
+}
+
+.nav-list{
+    background-color: pink;
+    margin: 0 10px ;
+    min-width: 200px;
+    max-width: 800px;
+}
+
+.nav-link{
+    justify-content: space-between;
+}

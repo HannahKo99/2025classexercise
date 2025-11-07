@@ -1,0 +1,54 @@
+section{
+  margin: 100px;
+}
+
+
+.box{
+  width: 300px;
+}
+
+.box1{
+  background-color: #faf;
+}
+
+.box2{
+  background-color: #fa0;
+}
+
+.box3{
+  background-color: #aaf;
+}
+
+
+.box-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    background-color: rgb(189, 237, 189);
+}
+
+.card-wrap{
+    background-color: gainsboro;
+    display: flex;
+}
+
+.card{
+    height: 100px;
+}
+
+.card1{
+    background-color: aqua;
+    flex-grow: 1;
+    flex: 3;
+}
+
+.card2{
+    background-color: plum;
+    flex: 3;
+
+}
+
+.card3{
+    background-color: sandybrown;
+    flex: 3;
+}

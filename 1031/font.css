@@ -1,0 +1,64 @@
+section{
+    margin: 50px;
+}
+
+nav {
+    background-color: rgb(29, 85, 240);
+    height: 64px;              /* 設定整個導覽列高度 */
+    display: flex;             /* 啟用 flex 排版 */
+    justify-content: space-around; /* 平均分配每個 a 的間距 */
+    align-items: center;       /* 垂直置中 */
+}
+
+nav a {
+    background-color: yellow;
+    letter-spacing: 2px;
+    text-decoration: none;     /* 拿掉底線 */
+    color: black;
+    height: 40px;              /* 讓 a 撐滿 nav 的高度 */
+    display: flex;             /* 讓文字可垂直置中 */
+    align-items: center;
+    justify-content: center;   /* 文字水平置中 */
+    padding: 10px;           /* 左右內距 */
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.p1{
+    font-family: "LXGW WenKai TC", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.p2
+{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.bg-img{
+    background-image: url(https://pbs.twimg.com/media/FXyFHFEUYAEfGwB.jpg);
+    /* 背景圖會附著在元素上，但如果這個元素沒有內容、也沒有設定高度或寬度，就會變成「0x0」的不可見區塊，所以圖片也就看不到。 */
+    background-size: cover;      /* 讓圖片覆蓋整個區塊 */
+    background-position: center; /* 置中對齊 */
+    width: 500px;                 /* 撐滿頁面寬度 */
+    height: 300px;  
+}
+
+.bg-img2{
+    background-color: #94ac3f8f;
+    height: 600px; 
+    background-image: url(https://megapx-assets.dcard.tw/images/0cad009e-d3f8-4181-bd7d-e1047c5640d5/640.jpeg), url(https://images.wondershare.com/filmora/article-images/what-is-gif.gif);
+    background-repeat: no-repeat;
+    background-size: 100px 100px, 300px 200px;
+    background-position: 20px center, bottom 40px right 100px;      /* 上右下左 順時針 */
+
+}
