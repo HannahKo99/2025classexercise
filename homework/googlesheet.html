@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表單練習</title>
+    <link rel="styleshrrt" href="/reset.css"/>
+    <link rel="stylesheet" href="sheet.css"/>
+</head>
+<body class="body">
+    
+    <div class="div">
+        <div class="top"></div>
+        <h1 class="h1">F2E02 表單練習</h1>
+        <p>僅供新尖兵 F2E02 表單切版練習作業</p>
+        <hr/ class="hr">
+        <p style="color: gray;"><a href="#" >登入 Google</a> 即可儲存進度。<a href="#"> 瞭解詳情</a></p>
+        <hr/ class="hr">
+        <p style="color: red;">* 表示必填問題</p>
+
+    </div>
+    <div class="div">
+        <label class="divtitle">姓名</label>
+        <input class="inputtext" type="text" placeholder="您的回答">
+    </div>
+    <div class="div">
+        <label class="divtitle">信箱</label>
+        <input class="inputtext" type="email" placeholder="您的回答">
+    </div>
+    <div class="div">
+        <label class="divtitle">生日</label>
+        <input type="date" value="birthday">
+
+    </div>
+    <div class="div">
+        <label class="divtitle">想跟老師說悄悄話</label>
+        <input class="inputtext" type="text" placeholder="您的回答">
+    </div>
+    <div class="div">
+        <label class="divtitle">喜歡的顏色</label>
+        <div class="block">
+            <input type="radio"  name="color" value="yellow">黃
+            <input type="radio"  name="color" value="green">綠
+            <input type="radio"  name="color" value="red">紅
+            <!-- radio要給相同的name才會形成單選 -->
+        </div>
+    </div>
+    <div class="div">
+        <label class="divtitle">喜歡吃的飲食類型</label>
+        <input type="checkbox" name="food" value="chinese">中式
+        <input type="checkbox" name="food" value="italian">義式
+        <input type="checkbox" name="food" value="japanese">日式
+        <input type="checkbox" name="food" value="korean">韓式
+        <input type="checkbox" name="food" value="american">美式
+        <input type="checkbox" name="food" value="thailanese">泰式
+
+    </div>
+    <div class="div">
+        <label class="divtitle">最想去的國家</label>
+        <select>
+            <optgroup label="亞洲">
+                <option value="japan">日本</option>
+                <option value="korea">韓國</option>
+                <option value="thailand">泰國</option>
+                <option value="bhutan">不丹</option>
+                <option value="turkey">土耳其</option>
+            </optgroup>
+            <optgroup label="歐洲">
+                <option value="france">法國</option>
+                <option value="uk">英國</option>
+                <option value="italy">義大利</option>
+                <option value="greece">希臘</option>
+                <option value="norway">挪威</option>
+            </optgroup>
+            <optgroup label="美洲">
+                <option value="peru">秘魯</option>
+                <option value="canada">加拿大</option>
+                <option value="america">美國</option>
+                <option value="mexico">墨西哥</option>
+                <option value="brazil">巴西</option>
+            </optgroup>
+            <optgroup label="非洲">
+                <option value="egypt">埃及</option>
+                <option value="morocco">摩洛哥</option>
+                <option value="southafrica">南非</option>
+                <option value="kenya">肯亞</option>
+                <option value="madagascar">馬達加斯加</option>
+            </optgroup>
+            <optgroup label="大洋洲">
+                <option value="fiji">斐濟</option>
+                <option value="australia">澳洲</option>
+                <option value="newzealand ">新西蘭</option>
+                <option value="palau">帛琉</option>
+                <option value="tuvalu">吐瓦魯</option>
+            </optgroup>
+        </select>
+    </div>
+    <button class="btn">提交</button>
+    <button class="delete">清除表單</button>
+    
+</body>
+</html>
