@@ -1,0 +1,36 @@
+.card1{
+    width: 300px;
+    border: 2px solid gainsboro;
+    margin: 20px 50px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.img{
+    object-fit: 4/3;
+    width: 100%;
+}
+
+
+.tag1{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: +20px;
+    left: -10px;
+}
+
+.tag2{
+    background-color: yellow;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+    font-weight: 500;
+    border-bottom-left-radius: 5px;
+}
+
+.text-container{
+    padding: 10px;
+}
