@@ -1,0 +1,23 @@
+header{
+    height: 60px;
+    background-color: gray;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+.page{
+    position: relative;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: #3a4eff;
+    opacity: 0.5;
+    top: 50%;
+    left: 50%;
+}

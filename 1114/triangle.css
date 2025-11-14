@@ -1,0 +1,87 @@
+.box{
+    margin: 50px auto;
+    width: 100px;
+    height: 100px;
+    border-top: 100px solid red;
+    border-bottom: 100px solid blue;
+    border-left: 100px solid yellow;
+    border-right: 100px solid green;
+    opacity: 0.5;
+}
+
+.box2{
+    margin: 50px auto;
+    width: 200px;
+    height: 100px;
+    border-right: 100px solid red;
+    border-bottom: 100px solid blue;
+
+}
+
+.ab-text{
+    margin: 50px auto;
+}
+
+.ab-text::before{
+    content: "這是標題before";
+    color: blue;
+}
+
+.ab-text::after{
+    content: "這是標題afer";
+    color: red;
+}
+
+.h2{
+    font-size: 48px;   
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.h2::before{
+    content: "";
+    width: 80px;
+    height: 2px;
+    background-color: orange;
+    position: absolute;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+
+}
+
+.btn{
+    color: yellow;
+    padding: 10px;
+    background-color: #493df7;
+    margin-left: 15%;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.btn:hover::before{
+    content: "點擊表示同意...";
+    color: red;
+    min-width: 120px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 15px;
+    text-align: center;
+}
+
+.btn:hover::after{
+    content: "";
+    border-top:  8px solid greenyellow;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+
+}
